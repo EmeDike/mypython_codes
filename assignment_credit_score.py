@@ -11,7 +11,7 @@ elif credit_score > 50:
     down_payment = amount * 0.10
 else:
     print("INVALID CREDIT SCORE")
-    down_payment = 0  # Set down_payment to 0 for invalid credit score
+    down_payment = 0
 
 
 
