@@ -23,3 +23,5 @@ print("*****************************")
 print(f"Name Of The Item is:", name_of_item)
 print("Discount is: ", discount)
 print("Down Payment:", down_payment)
+
+# use one print statement
