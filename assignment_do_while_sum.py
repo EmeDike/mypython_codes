@@ -12,3 +12,5 @@ while True:
         break
     else:
         print(f"Sum of {first_number} and {second_number} is: {sum}")
+
+# rewrite this code using sentinel loop
