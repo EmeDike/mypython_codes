@@ -1,4 +1,3 @@
-
 principal = 1000
 annual_rate = 0.07
 
