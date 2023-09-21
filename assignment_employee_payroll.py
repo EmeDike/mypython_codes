@@ -28,3 +28,5 @@ while True:
     print(f"State Tax Withholding: ${state_tax_withholding:.2f}")
     print(f"Total Deductions: ${total_deductions:.2f}")
     print(f"Net Pay: ${net_pay:.2f}")
+
+# refactor to use one print statement
