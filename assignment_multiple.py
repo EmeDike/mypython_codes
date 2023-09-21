@@ -8,3 +8,4 @@ if 4 % 1024 != 0:
 if 10 % 2 == 0:
     print(f"{second_number} is a multiple of {divisor} ")
 
+# refactor the if statement
