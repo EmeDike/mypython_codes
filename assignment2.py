@@ -16,3 +16,5 @@ print (f"The product of {first_number} and {second_number} is {product}")
 print (f"The division of {first_number} and {second_number} is {division}")
 print (f"The remainder of {first_number} and {second_number} is {remainder}")
 print (f"The exponent of {first_number} and {second_number} is {exponent}")
+
+# refactor and use one print function
