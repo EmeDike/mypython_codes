@@ -8,4 +8,4 @@ while number > 0:
     print(number)
 print("Factorial:", factorial)
 
-# this factorial is number working
+# this factorial is not working
