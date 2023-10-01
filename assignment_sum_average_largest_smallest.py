@@ -21,3 +21,5 @@ while True:
     print("product of the three integers is:", product)
     print("The largest number is:", largest_number)
     print("The smallest number is:", smallest_number)
+
+# refactor this to use one print statement
