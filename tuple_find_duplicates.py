@@ -1,11 +1,12 @@
-def find_duplicates(input_tuple):
-    seen = ()
-    duplicates = ()
+def display_duplicates_of_tuple(input_tuple):
+        seen = set()
+        duplicates = set()
 
-    for item in input_tuple:
-        if item in seen:
-            duplicates += (item,)
-        else:
-            seen += (item,)
+        for item in input_tuple:
+            if item in seen:
+                duplicates.add(item)
+            else:
+                seen.add(item)
 
-    return duplicates
+        return tuple(duplicates)
+
