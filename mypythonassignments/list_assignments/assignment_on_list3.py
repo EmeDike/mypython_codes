@@ -1,13 +1,8 @@
-def largest_number():
-
-    my_list = [15, 20, 25, 20, 10, 5]
-    largest_number = my_list[0]
-
-    for number in my_list:
-        if number > largest_number:
-            largest_number = number
-
+def largest_number(my_list):
+    largest_number = max(my_list)
     return largest_number
 
-result = largest_number()
+
+my_list = [2, 3, 5, 8, 12]
+result = largest_number(my_list)
 print(result)

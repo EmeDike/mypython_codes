@@ -1,5 +1,10 @@
 
 
 def is_palindrome(s):
-    reversed_str = s[::-1]
-    return s == reversed_str
+    reversed = s[::-1]
+    return reversed
+
+
+user_input = input("Enter string to reverse  ")
+result = is_palindrome(user_input)
+print(result)
